@@ -1,6 +1,6 @@
 <?php 
 
-namespace Watson\Autologin\Interfaces;
+namespace SmartPanel\Autologin\Interfaces;
 
 interface AutologinInterface
 {

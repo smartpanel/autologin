@@ -90,7 +90,7 @@ return [
     |
     */
 
-    'autologin_provider' => Watson\Autologin\Providers\EloquentAutologinProvider::class,
+    'autologin_provider' => SmartPanel\Autologin\Providers\EloquentAutologinProvider::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -105,7 +105,7 @@ return [
     |
     */
 
-    'authentication_provider' => Watson\Autologin\Providers\AuthAuthenticationProvider::class,
+    'authentication_provider' => SmartPanel\Autologin\Providers\AuthAuthenticationProvider::class,
 
     /*
     |--------------------------------------------------------------------------

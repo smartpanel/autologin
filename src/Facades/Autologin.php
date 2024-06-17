@@ -1,6 +1,6 @@
 <?php 
 
-namespace Watson\Autologin\Facades;
+namespace SmartPanel\Autologin\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

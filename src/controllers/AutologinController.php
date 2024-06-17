@@ -1,10 +1,10 @@
 <?php 
 
-namespace Watson\Autologin;
+namespace SmartPanel\Autologin;
 
 use Illuminate\Routing\Controller;
-use Watson\Autologin\Interfaces\AuthenticationInterface;
-use Watson\Autologin\Interfaces\AutologinInterface;
+use SmartPanel\Autologin\Interfaces\AuthenticationInterface;
+use SmartPanel\Autologin\Interfaces\AutologinInterface;
 
 class AutologinController extends Controller
 {

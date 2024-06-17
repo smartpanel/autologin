@@ -1,9 +1,9 @@
 <?php
 
-namespace Watson\Autologin\Providers;
+namespace SmartPanel\Autologin\Providers;
 
 use Illuminate\Database\Eloquent\Model;
-use Watson\Autologin\Interfaces\AutologinInterface;
+use SmartPanel\Autologin\Interfaces\AutologinInterface;
 
 class EloquentAutologinProvider extends Model implements AutologinInterface
 {

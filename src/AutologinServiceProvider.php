@@ -1,11 +1,11 @@
 <?php
 
-namespace Watson\Autologin;
+namespace SmartPanel\Autologin;
 
 use Illuminate\Support\ServiceProvider;
-use Watson\Autologin\Autologin;
-use Watson\Autologin\Interfaces\AutologinInterface;
-use Watson\Autologin\Interfaces\AuthenticationInterface;
+use SmartPanel\Autologin\Autologin;
+use SmartPanel\Autologin\Interfaces\AutologinInterface;
+use SmartPanel\Autologin\Interfaces\AuthenticationInterface;
 
 class AutologinServiceProvider extends ServiceProvider
 {
@@ -95,9 +95,7 @@ class AutologinServiceProvider extends ServiceProvider
             __DIR__.'/config/config.php' => config_path('autologin.php')
         ], 'config');
 
-        $this->publishes([
-            __DIR__.'/migrations/' => base_path('/database/migrations')
-        ], 'migrations');
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
     }
 
     /**

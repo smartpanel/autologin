@@ -1,13 +1,13 @@
 <?php
 
-namespace Watson\Autologin;
+namespace SmartPanel\Autologin;
 
 use Carbon\Carbon;
 use Illuminate\Support\Str;
 use Illuminate\Config\Repository;
 use Illuminate\Routing\UrlGenerator;
 use Illuminate\Contracts\Auth\Authenticatable;
-use Watson\Autologin\Interfaces\AutologinInterface;
+use SmartPanel\Autologin\Interfaces\AutologinInterface;
 
 class Autologin
 {

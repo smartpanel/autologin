@@ -1,10 +1,10 @@
 <?php 
 
-namespace Watson\Autologin\Providers;
+namespace SmartPanel\Autologin\Providers;
 
 use Sentry;
 use Cartalyst\Sentry\Users\UserNotFoundException;
-use Watson\Autologin\Interfaces\AuthenticationInterface;
+use SmartPanel\Autologin\Interfaces\AuthenticationInterface;
 
 class SentryAuthenticationProvider implements AuthenticationInterface
 {

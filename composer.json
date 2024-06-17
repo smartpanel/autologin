@@ -1,38 +1,42 @@
 {
-    "name": "watson/autologin",
+    "name": "smartpanel/autologin",
     "description": "Autologin package for Laravel",
     "keywords": ["laravel", "autologin"],
     "license": "MIT",
     "authors": [
+        {
+            "name": "Josep Rius",
+            "email": "jrius@smartpanel.com"
+        },
         {
             "name": "Dwight Watson",
             "email": "dwightwatson@studious.com.au"
         }
     ],
     "require": {
-        "php": ">=5.5.0",
-        "illuminate/contracts": "5.*",
-        "illuminate/support": "5.*",
-        "nesbot/carbon": "1.*"
+        "php": "^7.3|^8.0",
+        "illuminate/contracts": "8.*",
+        "illuminate/support": "8.*",
+        "nesbot/carbon": "2.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.5.*"
+        "phpunit/phpunit": "^8.5.19|^9.5.8"
     },
     "autoload": {
         "classmap": [
             "src/controllers"
         ],
         "psr-4": {
-            "Watson\\Autologin\\": "src/"
+            "SmartPanel\\Autologin\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Watson\\Autologin\\AutologinServiceProvider"
+                "SmartPanel\\Autologin\\AutologinServiceProvider"
             ],
             "aliases": {
-                "Autologin": "Watson\\Autologin\\Facades\\Autologin"
+                "Autologin": "SmartPanel\\Autologin\\Facades\\Autologin"
             }
         }
     },

@@ -1,9 +1,9 @@
 <?php
 
-namespace Watson\Autologin\Providers;
+namespace SmartPanel\Autologin\Providers;
 
 use Auth;
-use Watson\Autologin\Interfaces\AuthenticationInterface;
+use SmartPanel\Autologin\Interfaces\AuthenticationInterface;
 
 class AuthAuthenticationProvider implements AuthenticationInterface
 {

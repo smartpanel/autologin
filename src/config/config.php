@@ -20,7 +20,7 @@ return [
     | Token lifetime
     |--------------------------------------------------------------------------
     |
-    | Here you may specifiy the number of minutes you wish the autologin token
+    | Here you may specify the number of minutes you wish the autologin token
     | to remain active.
     |
     */
@@ -72,7 +72,7 @@ return [
     | Here you may specify the guard instance you would like to use. If your
     | needs are more complex, simply copy the AuthAuthenticationProvider into
     | your own application, swap out what you want to change and then set the
-    | AuthAuthenticationProvider to your own implementaion in this file.
+    | AuthAuthenticationProvider to your own implementation in this file.
     |
     */
 
